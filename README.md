@@ -1,14 +1,13 @@
 # RaspiRobot
 The Raspberry Pi Robot - Client (Android) / Server (Python)
 
-
+I.	Présentation : 
   Ce travail réalisé dans le cadre du projet de fin de module.  
 Ce rapport présente le processus de conception et la réalisation d'un projet dans lequel on vaut utiliser une nouvelle technologie  “Raspberry” développé par le langage Python. 
  
  
-II.	Présentation du sujet : 
+II.	Présentation du sujet :
 Nous allons réalisé un robot avec Raspberry pi controller à distance via un smartphone. 
- 
 Ce robot a plusieurs fonctionnalités parmi eux : 
 -	Il permet de détécter les obstacles et les éviter ainsi de changer son chemin. 
 -	Il permet de mémoriser le chemin qui a suivi en revenant au point de départ vers le même chemin. 
@@ -126,3 +125,62 @@ Caractéristique:
 •	Indicateur LED pour sens de rotation moteur 
 •	Indicateur LED pour alimentation 5V 
 •	4 trous de fixation standard 
+
+
+L.	Schéma:
+
+![image](https://cloud.githubusercontent.com/assets/19296142/17638961/1c953f62-60e6-11e6-920d-55e5e90dd9c7.png)
+
+
+![image](https://cloud.githubusercontent.com/assets/19296142/17638962/28fccd2e-60e6-11e6-91c7-c3e241d5835d.png)
+
+
+2.	LES SOLUTIONS LOGICIELLES : 
+
+a.	Technologies  
+ 
+o	Android 
+Android, prononcé androïde, est un système d'exploitation mobile open source  basé sur le noyau Linux et développé actuellement par Google. Le système a été aborder pour les smartphones et tablettes tactiles. 
+ 
+o	XML : 
+ 
+XML (entendez eXtensible Markup Language et traduisez Langage à balises étendu, ou Langage à balises extensible) est en quelque sorte un langage HTML amélioré permettant de définir de nouvelles balises. Ils'agit effectivement d'un langage permettant de mettre en forme des documents grâce à des balises (markup). 
+ 
+Il est un sous ensemble de SGML (Standard Generalized Markup 
+Language), défini par le standard ISO8879 en 1986, utilisé dans le milieu de la Gestion Electronique Documentaire (GED). XML reprend la majeure partie des fonctionnalités de SGML, il s'agit donc d'une simplification de SGML afin de le rendre utilisable sur le web 
+ 
+o	Python : 
+Python est un langage de programmation objet, multiparadigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramassemiettes et d'un système de gestion d'exceptions ; il est ainsi similaire à Perl, Ruby, Scheme, Smalltalk et Tcl. 
+Le langage Python est placé sous une licence libre proche de la licence BSD3 et fonctionne sur la plupart des plates-formes informatiques, des supercalculateurs aux ordinateurs centraux4, de Windows à Unix en passant par GNU/Linux, Mac OS, ou encore Android, iOS, et aussi avec Java ou encore .NET. Il est conçu pour optimiser la productivité des programmeurs en offrant des outils de haut niveau et une syntaxe simple à utiliser. 
+
+
+1. Communication Android – Raspberry 
+ 
+Cette partie est réalisée par l’équipe “communication”, dans un premier temps, elle a pour but de choisir le support pour la communication entre Android – Raspberry télécommandée et les protocoles entre ces deux derniers. 
+b.	Choix du support 
+ 
+o	Wifi 
+ 
+Le Wi-Fiest un ensemble de protocoles de communication sans fil régis par les normes du groupe IEEE 802.11 (ISO/CEI 8802-11). Un réseau Wi-Fi permet de relier par ondes radio 
+plusieurs appareilsinformatiques (ordinateur, routeur, smartphone, décodeur Internet, etc.) au sein d'un réseau informatique afin de permettre la transmission de données entre eux. 
+ 
+o	Avantages du Wifi: 
+Mobilité  
+ 
+La connexion au réseau sans fil permet de se déplacer librement dans le rayon disponible. On peut ainsi emmener son laptop de la salle de réunion à l’atelier sans avoir à brancher/débrancher quoi que ce soit.   
+Facilité  
+ 
+Un réseau WiFi bien configuré permet de se connecter très facilement, à condition, biensûr, de posséder une autorisation. Il suffit généralement de se trouver dans la zone de couverture pour être connecté.  
+ 
+Souplesse  
+ 
+La souplesse d’installation du WiFi permet d’adapter facilement la zone d’action en fonction des besoins. Si le point d’accès est trop faible, on ajoute des répéteurs pour étendre la couverture.  
+ 
+Coût  
+ 
+La plupart des éléments du réseau WiFi (point d’accès, répéteurs, antennes…) peuvent être simplement posés. L’installation peut donc parfois se faire sans le moindre outillage, ce qui réduit les coûts de main-d’œuvre. Le budget de fonctionnement est similaire à un réseau filaire.  
+ 
+Evolutivité  
+ 
+La facilité d’extension ou de restriction du réseau permet d’avoir toujours une couverture WiFi correspondant aux besoins réels. 
+
