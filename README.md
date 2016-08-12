@@ -184,3 +184,6 @@ Evolutivité
  
 La facilité d’extension ou de restriction du réseau permet d’avoir toujours une couverture WiFi correspondant aux besoins réels. 
 
+![image](https://cloud.githubusercontent.com/assets/19296142/17639035/cade9230-60e6-11e6-94cb-b79abfbad61d.png)
+
+![image](https://cloud.githubusercontent.com/assets/19296142/17639029/c114cfd0-60e6-11e6-891a-9b7dcf5ae72c.png)
