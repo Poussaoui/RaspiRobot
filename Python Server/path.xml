@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<root>
+	<path id="1">
+		<num>1</num>
+		<direction>forward</direction>
+	</path>
+	<path id="4">
+		<num>4</num>
+		<direction>turn_right</direction>
+	</path>
+	<path id="1">
+		<num>1</num>
+		<direction>forward</direction>
+	</path>
+</root>
