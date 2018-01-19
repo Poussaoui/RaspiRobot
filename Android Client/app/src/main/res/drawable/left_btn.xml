@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  button saat di klik -->
+    <item android:drawable="@drawable/left_dark"
+        android:state_pressed="true" />
+
+    <!--  button  terfokus -->
+    <item android:drawable="@drawable/left_dark"
+        android:state_focused="true" />
+
+    <!--  button saat  normal -->
+    <item android:drawable="@drawable/left" />
+</selector>
